@@ -140,3 +140,17 @@ output), `api`, `web` (multi-stage build of `frontend/` served by nginx, which a
 - Don't commit `media/` or `data/` (gitignored).
 - Training-logic changes (progression, 1RM, session read-back) need a unit test in `src/lib`
   beside the code, not just manual clicking-through.
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues on the fork `jfdg01/openGym`; always pass `-R jfdg01/openGym` (gh defaults to upstream). See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five default labels (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `CONTEXT.md` and `docs/adr/` at the repo root, created lazily. See `docs/agents/domain.md`.
